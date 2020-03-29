@@ -2,7 +2,11 @@
 
 Will sort photos and videos with the format `IMG_YYYYMMDD` or `VID_YYYYMMDD` into pre-determined directories.
 
-Default directory structure is 
+## Usage
+
+`python sort.py`
+
+Default directory structure is:
 ```
 sort/
   files.jpg
@@ -11,6 +15,7 @@ sort/
   IMG_20200109_180332.jpg
   IMG_20200122_194152_790.jpg
   VID_20200123.mp4
+
 YYYY/
   01 January/
     Photos/
@@ -19,6 +24,7 @@ YYYY/
     Videos/
       VID_20200123.mp4
 ```
+
 
 ## Default Configuration
 ```
