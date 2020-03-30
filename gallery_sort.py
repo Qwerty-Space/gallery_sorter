@@ -50,7 +50,7 @@ def main():
         fday = namelist[1][6:8]
 
         # create a datetime object from the file name info
-        fdate = datetime(int(namelist[1][:4]), int(namelist[1][4:6]), int(namelist[1][6:8]))
+        fdate = datetime(int(fyear), int(fmonth), int(fday))
 
         # this variable will be an empty string if separate_files is False, else it's equal to fpath
         basename = fpath if separate_filetypes else ""
