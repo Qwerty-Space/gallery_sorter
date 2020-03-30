@@ -1,13 +1,17 @@
 # gallery_sorter
 
-Will sort photos and videos with the format `IMG_YYYYMMDD` or `VID_YYYYMMDD` into pre-determined directories.
+Will sort photos and videos with the format `IMG_YYYYmmDD` or `VID_YYYYmmDD` into pre-determined directories.
+
+## Requirements
+• >= python 3.7
 
 ## Usage
 
-`python sort.py`
+Put `gallery_sort.py` adjacent to the `sort` directory.  Put all photos and videos you wish to sort in `sort`, then run `python gallery_sort.py`
 
 Default directory structure is:
 ```
+gallery_sort.py
 sort/
   files.jpg
   to.mp4
@@ -16,7 +20,7 @@ sort/
   IMG_20200122_194152_790.jpg
   VID_20200123.mp4
 
-YYYY/
+2020/
   01 January/
     Photos/
       IMG_20200109_180332.jpg
