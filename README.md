@@ -3,10 +3,10 @@
 Will sort photos and videos with the format `IMG_YYYYmmDD` or `VID_YYYYmmDD` into pre-determined directories.
 
 ## Requirements
-• >= python 3.7
-• ffmpeg
-• ffmpeg-python
-• pyexiv2
+• >= python 3.7  
+• ffmpeg  
+• ffmpeg-python  
+• pyexiv2  
 
 ## Usage
 
