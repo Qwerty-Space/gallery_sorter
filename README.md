@@ -4,6 +4,9 @@ Will sort photos and videos with the format `IMG_YYYYmmDD` or `VID_YYYYmmDD` int
 
 ## Requirements
 • >= python 3.7
+• ffmpeg
+• ffmpeg-python
+• pyexiv2
 
 ## Usage
 
@@ -13,10 +16,8 @@ Default directory structure is:
 ```
 gallery_sort.py
 sort/
-  files.jpg
-  to.mp4
-  sort.jpeg
-  IMG_20200109_180332.jpg
+  dir/
+    IMG_20200109_180332.jpg
   IMG_20200122_194152_790.jpg
   VID_20200123.mp4
 
@@ -48,7 +49,4 @@ path_format = ["%Y", "%m %B"]
 
 # Whether to copy the files, or move them
 copy_files = True
-
-# Overwrite files if they exist
-overwrite = False
 ```
