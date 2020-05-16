@@ -66,7 +66,7 @@ def main():
 
                 out = probe(f, show_frames=None)
                 try: # try using ffprobe
-                    creation_date = out['frames'][0]['tags']['DateTime']
+                    creation_date = out['frames'][0]['tags']['DateTimeOriginal']
                 except:
                     try: # try using pyexiv 2
                         img = Image(f)
